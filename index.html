@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>のりのアパレル</title>
+    <title>アパレルサイト</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
   <header>
     <h1>
-        某apparelSite
+        LAMINA
     </h1>
   </header>
 <p>
@@ -19,7 +20,37 @@
     <h2>
         商品一覧
     </h2>
-    <div id="list"class="list"></div>
+    <div id="list"class="list">
+      <productcard class="product">
+        <h3>T-shirt</h3>
+<a href="T-shirt.html">
+        <img src="https://placehold.jp/400x400.png" alt="T-shirt">
+        </a>
+        <p>￥30,000&emsp;&emsp;
+          
+          <a href="new-items.html" class="look-items">商品を見る</a></p>
+           
+      </productcard>
+
+      <section class="new-img">
+        <h3>新商品</h3>
+        <a href="new-items.html">
+        <img src="https://placehold.jp/400x400.png" alt="新商品">
+          </a>
+        <p>￥50,000&emsp;&emsp;<a href="new-items.html" class="look-items">商品を見る</a></p>
+      </section>
+
+      <article class="new-img">
+        <h3> セール商品</h3>
+        <a href="sale.html">
+        <img src="https://placehold.jp/400x400.png" alt="セール商品">
+        </a>
+        <p>￥1,000～&emsp;&emsp;<a href="new-items.html" class="look-items">商品を見る</a></p>
+         <button class="add-cart">カートに追加</button> 
+      </article>
+
+    </div>
+
 </main>
 </body>
 </html>
